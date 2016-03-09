@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+1. You do not have to look at lines that are unchanged.
+2. you can see in what file the change has been made.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+1. It allows you to more easily change files without having to make copies to restore to earlier points if it fails or there are bugs.
+2. It cleans up your working directory as you don't need to have multiple copies of older file versions laying around.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs?
+
+pros:
+1. you are required to think of each logical change you made.
+2. It forces you to work in a structured way.
+3. it allows other people to better understand the changes you made.
+
+cons:
+1. you still need to remember making commits at the appropriate times.
+2. some people might have different opinions of what they find the best times to make a commit.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like google docs, treat each file separately?
+
+1. For coding, many files are usually connected and all need to work across a commit in order for the program to work.
+2. Google docs files usually are not connected in this way (though maybe for database purposes together with sheets it would make sense). They might be related, but are usually stand-alone.
+
+How can you use the commands git log and git diff to view the history of the file?
+
+1. git log shows all of the commits that have been made for the file ( you can adjust the stats shown with comments like --stats)
+2. git diff shows the differences between two commits that have been made.
+
+How might using version control make you more confident to make changes that could break something?
+
+1. you can easily go back to an earlier version if something you try out breaks your code.
+2. you can easily compare different implementation of the same thing to check out what works best.
+3. even if you fail to fix some error, you can easily work on other parts of the code on a version that does work.
+
+Now that you have your workspace set up, what do you want to try using git for?
+
+1. running the ipython notebooks for intro data analyst
+2. making my own ipy nbs for the other data analyst courses.

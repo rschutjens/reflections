@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+1. When you initialize a repository it creates the initial files in a hidden folder.
+2. This tells git to record the history of the files in the folder.
