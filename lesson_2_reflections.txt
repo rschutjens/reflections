@@ -2,3 +2,18 @@ What happens when you initialize a repository? Why do you need to do it?
 
 1. When you initialize a repository it creates the initial files in a hidden folder.
 2. This tells git to record the history of the files in the folder.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+1. check with git diff if your change is in the staging area.
+2. check git diff --staged to see if your change is the one you want to make compared to the last commit.
+
+What are some situation in which branches would be helpful in keeping your history organized? How would branches help?
+
+1. to organize multiple implementation of specific code.
+2. to experiment with your code, but keep a working/main version intact.
+3. dividing up larger projects into multiple smaller ones, each working on their own part from a point in the main branch.
+
+How do the diagrams help you visualize the branch structure?
+
+1. you see what commits are connected or reachable from a specific branch.
