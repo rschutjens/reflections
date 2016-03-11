@@ -23,3 +23,9 @@ What is the result of merging two branches together? Why do we represent it in t
 1. when you merge, git uses the 2 branches AND the point where they were still the same to combine all changes into one branch.
 2. The commits of both branches can now be accessed from the new merged branch point.
 3. you can delete the other branch label now as it wont be needed anymore to access the commits.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+1. distinct changes (i.e. changes made to different parts / not directly related parts of the code) are efficiently taken care of by automatic merging.
+2. you still need to resolve conflict issues, but this would also be the case using manual merging.
+3. with manual merging you need to go through all changes in both branches, this does give you a clearer view of changes and allows you to document them.
