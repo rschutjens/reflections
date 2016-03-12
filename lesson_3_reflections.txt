@@ -20,3 +20,8 @@ What is the benefit of having a copy of the last known state of the remote store
 
 1. when you pull with the remote again, there is a point stored from which all changes that are in the remote repository can always be connected at, regardless of local changes.
 2. you can see if you made any changes to the project from the time you last pulled it (status)
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder.
+
+1. Without git and github you need to write out whole topic every time you need to discuss a change, add all the files affected. Then they need to download the files separately and update their local project, without making a mistake and see if they can follow your directions to the issue. You also need to copy your local directory to have a backup that is still working.
+2. It is easier with git and github. they can review all the changes on the pull request, with only affected changes visible + commits. If it is more complicated it is easy to pull the changes to their local repository and check it out.
